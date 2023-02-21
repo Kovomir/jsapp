@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script type="text/javascript" src="end.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Quizzer</h1>
+    </header>
+
+    <div class="container flex-column">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">Finální skóre: 0</h1>
+        </div>
+        <form class="end-form-container">
+            <h2 id="end-text">Pro uložení výsledku napiš svou přezdívku!</h2>
+            <input type="text" name="name" id="username" placeholder="Napiš svou přezdívku"/>
+            <button class="button" id="saveScoreButton" type="submit" onclick="saveScore(event)" disabled>Uložit</button>
+        </form>
+        <a href="index.html" class="button">Přeskočit</a>
+    </div>
+
+    <footer>
+        <p>&COPY; 2023 Jan Kovář | Fakulta informatiky a statistiky VŠE v Praze</p>
+    </footer>
+</body>
+</html>

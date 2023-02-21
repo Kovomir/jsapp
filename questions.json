@@ -1,0 +1,66 @@
+[
+    {
+      "question": "Jak se jmenuje nejvyšší hora alp?",
+      "choice1": "Mont Blanc",
+      "choice2": "Matterhorn",
+      "choice3": "Grossglockner",
+      "choice4": "Monte Rosa",
+      "answer": 1
+    },
+    {
+      "question": "Jaké je hlavní město Rumunska?",
+      "choice1": "Budapešť",
+      "choice2": "Sofie",
+      "choice3": "Bukurešť",
+      "choice4": "Kišiněv",
+      "answer": 3
+    },
+    {
+      "question": "Jaká je oficiální měna v Ruska?",
+      "choice1": "ruský rubl",
+      "choice2": "ruský tolar",
+      "choice3": "ruská koruna",
+      "choice4": "euro",
+      "answer": 1
+    },
+    {
+      "question": "Na jakém stromě roste avokádo?",
+      "choice1": "avokádovník obecný",
+      "choice2": "hruškovec přelahodný",
+      "choice3": "slivoň zelená",
+      "choice4": "jabloň přelahodná",
+      "answer": 2
+    },
+    {
+      "question": "Kdo je režisérem filmu Forrest Gump?",
+      "choice1": "Robert Zemeckis",
+      "choice2": "Christopher Nolan",
+      "choice3": "Steven Spielberg",
+      "choice4": "David Fincher",
+      "answer": 1
+    },
+    {
+      "question": "Kdo je autorem Krtečka?",
+      "choice1": "Eduard Petiška",
+      "choice2": "Josef Brukner",
+      "choice3": "Jiří Žáček",
+      "choice4": "Zdeněk Miler",
+      "answer": 4
+    },
+    {
+      "question": "Jaká řeka protéká Římem?",
+      "choice1": "Temže",
+      "choice2": "Don",
+      "choice3": "Desna",
+      "choice4": "Tibera",
+      "answer": 4
+    },
+    {
+      "question": "Kdo prorokoval založení Prahy?",
+      "choice1": "Johanka",
+      "choice2": "Libuše",
+      "choice3": "Anežka",
+      "choice4": "Tereza",
+      "answer": 2
+    }
+]

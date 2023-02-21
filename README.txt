@@ -1,0 +1,1 @@
+Pro správné fungování musí být umístěn soubor questions.json na http server a v kódu musí být nastavena cesta k tomuto souboru.

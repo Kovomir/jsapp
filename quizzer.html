@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vieport" content="with=device-width, initial-scale=1.0">
+        <title>Quizzer</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <script type="text/javascript" src="quizzer.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Quizzer</h1>
+        </header>
+
+        <div class="container">
+            <div id="game" class="justify-center flex-column">
+                <div id="hud">
+                    <div class="hud-item">
+                        <p id="progressText" class="hud-prefix">
+                            Otázka
+                        </p>
+                        <div id="progressBar">
+                            <div id="progressBarFull"></div>
+                        </div>
+                    </div>
+                    <div class="hud-item">
+                        <p class="hud-prefix">
+                            Skóre
+                        </p>
+                        <h1 class="hud-main-text" id="score">
+                            0
+                        </h1>
+                    </div>
+                </div>
+                <div id="question">What is the answer?</div>
+                <div class="choice-container">
+                    <p class="choice-prefix">A</p>
+                    <p class="choice-text" data-number="1">Choice1</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">B</p>
+                    <p class="choice-text" data-number="2">Choice2</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">C</p>
+                    <p class="choice-text" data-number="3">Choice3</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">D</p>
+                    <p class="choice-text" data-number="4">Choice4</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&COPY; 2023 Jan Kovář | Fakulta informatiky a statistiky VŠE v Praze</p>
+        </footer>
+    </body>
+</html>
